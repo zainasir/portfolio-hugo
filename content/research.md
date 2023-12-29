@@ -5,7 +5,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "My current research involves optimizing Edge-SLAM and tailoring it for deployment on small drones with limited computation power."
+description: "My current research involves optimizing edge-based SLAM techniques and tailoring them for deployment on small drones with limited computation power."
 disableHLJS: false # to disable highlightjs
 disableShare: true
 disableHLJS: false

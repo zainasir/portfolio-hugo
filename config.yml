@@ -1,6 +1,6 @@
 baseURL: "http://localhost:1313/"
 title: Zain Nasir
-paginate: 5
+paginate: 7
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -19,8 +19,11 @@ params:
     disableThemeToggle: true
 
     ShowReadingTime: true
-    ShowShareButtons: true
-    ShowBreadCrumbs: true
+    ShowShareButtons: false
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+    ShowBreadCrumbs: false
+    ShowPageNums: true
     showtoc: false
     tocopen: false
 
@@ -28,9 +31,13 @@ params:
         favicon: "/favicon.ico"
 
     homeInfoParams:
-        Title: "Hi, welcome to my blog. \U0001F44B"
+        Title: "\U0001F44B Hi, welcome to my blog."
         Content: "I am a software developer and researcher currently completing my Masters in Computer Science (AI Track) from Binghamton University. My expertise include autonomous navigation systems in drones, computer vision, and machine learning."
+        Research: "My current [research](/research) involves optimizing edge-based SLAM techniques and tailoring them for deployment on small drones with limited compute power."
+        Contact: "I am searching for full-time software development and machine learning engineer positions. If you would like to connect with me, check out my socials below."
+        Profile: "/profile.png"
 
+    socialIconsStrokeWidth: 1.5
     socialIcons:
         - name: email
           url: "mailto:znasir1@binghamton.edu"
@@ -51,15 +58,18 @@ params:
 
 menu:
     main:
-        - identifier: home
-          name: Home
+        - name: Home
           url: /
           weight: 10
-        - identifier: resume
-          name: Resume
-          url: /resume.pdf
+        - name: Blog
+          pageRef: /blog
           weight: 20
-        - identifier: research
-          name: Research
-          url: /research
+        - name: Resume
+          url: /resume.pdf
           weight: 30
+        - name: Research
+          pageRef: /research
+          weight: 40
+        - name: Archive
+          pageRef: /archives
+          weight: 50
