@@ -1,0 +1,65 @@
+baseURL: "http://localhost:1313/"
+title: Zain Nasir
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production
+    title: Zain Nasir
+    description: "Software Developer & Researcher based in New York."
+    author: Zain Nasir
+    DateFormat: "Jan 2, 2006"
+    defaultTheme: auto
+    disableThemeToggle: true
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowBreadCrumbs: true
+    showtoc: false
+    tocopen: false
+
+    assets:
+        favicon: "/favicon.ico"
+
+    homeInfoParams:
+        Title: "Hi, welcome to my blog. \U0001F44B"
+        Content: "I am a software developer and researcher currently completing my Masters in Computer Science (AI Track) from Binghamton University. My expertise include autonomous navigation systems in drones, computer vision, and machine learning."
+
+    socialIcons:
+        - name: email
+          url: "mailto:znasir1@binghamton.edu"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/zainasir"
+        - name: github
+          url: "https://www.github.com/zainasir"
+
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+        keys: ["title", "permalink", "summary", "content"]
+
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 10
+        - identifier: resume
+          name: Resume
+          url: /resume.pdf
+          weight: 20
+        - identifier: research
+          name: Research
+          url: /research
+          weight: 30
