@@ -19,16 +19,20 @@ params:
     disableThemeToggle: true
 
     ShowReadingTime: true
+    ShowWordCount: true
     ShowShareButtons: false
     ShowPostNavLinks: true
     ShowCodeCopyButtons: true
     ShowBreadCrumbs: false
     ShowPageNums: true
-    showtoc: false
+    hidemeta: false
+    showtoc: true
     tocopen: false
+    hideAuthor: true
 
     assets:
         favicon: "/favicon.ico"
+        disableHLJS: false
 
     homeInfoParams:
         Title: "\U0001F44B Hi, welcome to my blog."
@@ -56,6 +60,13 @@ params:
         limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
         keys: ["title", "permalink", "summary", "content"]
 
+    # Katex
+    math: true
+
+# Emoji
+enableEmoji: true
+
+# Navigation menu
 menu:
     main:
         - name: Home

@@ -51,7 +51,7 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
-{{- if $.IsHome }}
+{{- if and $.IsHome $pages}}
 <h2>Recent posts</h2>
 <br>
 {{- end }}
