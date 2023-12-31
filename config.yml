@@ -95,3 +95,7 @@ outputs:
         - HTML
         - RSS
         - JSON
+
+# Disable default taxonomies
+disableKinds:
+    - taxonomy
