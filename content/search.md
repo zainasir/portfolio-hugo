@@ -1,5 +1,5 @@
 ---
 title: "Search"
-placeholder: "What is it that you desire, my friend?"
+placeholder: "Seek and ye shall find... maybe!"
 layout: "search"
 ---
