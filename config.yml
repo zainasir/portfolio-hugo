@@ -1,7 +1,7 @@
 baseURL: "https://www.zainnasir.com/"
 title: Zain Nasir
 paginate: 7
-theme: PaperMod
+theme: ["PaperMod"]
 
 enableRobotsTXT: true
 
@@ -38,9 +38,10 @@ params:
         Title: "\U0001F44B Hi, welcome to my blog."
         Content: "I am a software developer and researcher currently completing my Masters in Computer Science (AI Track) from Binghamton University. My expertise include autonomous navigation systems in drones, computer vision, and machine learning."
         Research: "My current [research](/research) involves optimizing edge-based SLAM techniques and tailoring them for deployment on small drones with limited compute power."
-        Contact: "I am searching for full-time software development and machine learning engineer positions. If you would like to connect with me, check out my socials below."
+        Contact: "I am searching for full-time software development and machine learning engineer positions. If you are interested, check out my [resume](/resume.pdf)."
         Profile: "/profile.png"
 
+    # Social Icons
     socialIconsStrokeWidth: 1.5
     socialIcons:
         - name: email
@@ -49,7 +50,10 @@ params:
           url: "https://www.linkedin.com/in/zainasir"
         - name: github
           url: "https://www.github.com/zainasir"
+        - name: cv
+          url: "/resume.pdf"
 
+    # Search
     fuseOpts:
         isCaseSensitive: false
         shouldSort: true
@@ -75,15 +79,19 @@ menu:
         - name: Blog
           pageRef: /blog
           weight: 20
-        - name: Resume
-          url: /resume.pdf
+        - name: Projects
+          pageRef: /projects
           weight: 30
         - name: Research
           pageRef: /research
           weight: 40
-        - name: Archive
-          pageRef: /archives
+        - name: Search
+          pageRef: /search
           weight: 50
-        - name: Tags
-          pageRef: /tags
-          weight: 60
+
+# Search
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
