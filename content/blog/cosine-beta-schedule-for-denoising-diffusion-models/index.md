@@ -1,7 +1,7 @@
 ---
 title: "Cosine-Beta Schedule for Denoising Diffusion Models"
 date: 2023-12-29T18:52:04-05:00
-description: ""
+description: "In this blog post, I discuss the cosine-beta variance schedule, why it is needed, the math behind it, and how it improves diffusion models."
 tags: ["diffusion models", "variance schedules", "cosine-beta schedule", "pixel-binning"]
 ---
 Denoising Diffusion Probabilistic Models (DDPMs) are quickly taking over the world, especially since [Dall-E 2](https://openai.com/dall-e-2) and [Midjounery](https://www.midjourney.com/home?callbackUrl=%2Fexplore) came out. It is quite interesting how powerful they are considering they are based on [Markov Chains](https://en.wikipedia.org/wiki/Markov_chain) which were introduced all the way back in 1906.

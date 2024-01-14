@@ -12,7 +12,7 @@ minify:
 params:
     env: production
     title: Zain Nasir
-    description: "Software Developer & Researcher based in New York."
+    description: "Software Developer & Researcher based in New York, currently searching for new grad positions."
     author: Zain Nasir
     DateFormat: "Jan 2, 2006"
     defaultTheme: auto
@@ -66,6 +66,9 @@ params:
 
     # Katex
     math: true
+
+    # Hide meta description from blog. This doesn't remove description from SEO
+    hideDescription: true
 
 # Emoji
 enableEmoji: true

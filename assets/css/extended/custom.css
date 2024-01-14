@@ -48,11 +48,11 @@ iframe {
 }
 
 .callout {
-    font-size: .65em !important;
+    font-size: 0.8em !important;
     margin: auto 24px;
     padding: 14px 14px;
     font-size: .78em;
     line-height: 1.5;
     background: var(--code-bg);
-    border-radius: 2px;
+    border-radius: 4px;
 }
