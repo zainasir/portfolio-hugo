@@ -38,7 +38,7 @@ params:
         Title: "\U0001F44B Hi, welcome to my blog."
         Content: "I am a software developer and researcher currently completing my Masters in Computer Science (AI Track) from Binghamton University. My expertise include autonomous navigation systems in drones, computer vision, and machine learning."
         Research: "My current [research](/research) involves optimizing edge-based SLAM techniques and tailoring them for deployment on small drones with limited compute power."
-        Contact: "I am searching for full-time software development and machine learning engineer positions. If you are interested, check out my [resume](/resume.pdf)."
+        Contact: "I am searching for software development and machine learning engineer positions. If you are interested, check out my [resume](/resume.pdf)."
         Profile: "/profile.png"
 
     # Social Icons
