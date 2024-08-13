@@ -16,11 +16,13 @@
             {{ .Research | markdownify }}
         </p>
     </div>
+    <!--
     <div class="entry-content callout">
         <p>
             {{ .Contact | markdownify }}
         </p>
     </div>
+    -->
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
     </footer>

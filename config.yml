@@ -36,9 +36,9 @@ params:
 
     homeInfoParams:
         Title: "\U0001F44B Hi, welcome to my blog."
-        Content: "I am a software developer and researcher currently completing my Masters in Computer Science (AI Track) from Binghamton University. My expertise include autonomous navigation systems in drones, computer vision, and machine learning."
+        Content: "I am a software developer and researcher with a Masters in Computer Science (AI Track) from Binghamton University. My expertise include autonomous navigation systems in drones, computer vision, and machine learning."
         Research: "My current [research](/research) involves optimizing edge-based SLAM techniques and tailoring them for deployment on small drones with limited compute power."
-        Contact: "I am searching for software development and machine learning engineer positions. If you have an opportunity for me, please reach out via [LinkedIn](https://www.linkedin.com/in/zainasir) or [Email](mailto:znasir1@Binghamton.edu)."
+        #Contact: "I am searching for software development and machine learning engineer positions. If you have an opportunity for me, please reach out via [LinkedIn](https://www.linkedin.com/in/zainasir) or [Email](mailto:znasir1@Binghamton.edu)."
         Profile: "/profile.png"
 
     # Social Icons
