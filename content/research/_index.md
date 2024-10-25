@@ -17,7 +17,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: true
 ---
-## Autonomous Navigation and Path Planning
+## NetSLAM: Network-Aware Path Planning for Edge-Assisted UAV Swarms
 I am developing network-aware edge-based SLAM techniques and tailoring them for deployment on small drones with limited computation power. I have developed a robust data pipeline that transmits live video feed from drones to a SLAM system for feature detection and map construction. My system is also compatible with Docker for efficient deployment and portability.
 
 I have also incorporated network analysis in the Edge-SLAM. By monitoring latency and throughput of the live video feed in real-time, the SLAM system can dynamically switch between edge processing and client processing. This enables [Edge-SLAM](https://github.com/zainasir/edgeslam/tree/docker) to continue mapping even under suboptimal connectivity conditions, ensuring a resilient and adaptable solution for autonomous drone navigation in extreme outdoor environments.
