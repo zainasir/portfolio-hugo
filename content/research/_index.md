@@ -22,6 +22,8 @@ I am developing network-aware edge-based SLAM techniques and tailoring them for 
 
 I have also incorporated network analysis in the Edge-SLAM. By monitoring latency and throughput of the live video feed in real-time, the SLAM system can dynamically switch between edge processing and client processing. This enables [Edge-SLAM](https://github.com/zainasir/edgeslam/tree/docker) to continue mapping even under suboptimal connectivity conditions, ensuring a resilient and adaptable solution for autonomous drone navigation in extreme outdoor environments.
 
+{{< youtube fm7hbWutRAQ >}}
+
 ### Results
 
 The testing setup included Aurelia X6 Standard drone, ZED Depth camera for live depth data, and Jetson AGX Xavier for SLAM computation. The ZED camera and Jetson were attached under the drone.
