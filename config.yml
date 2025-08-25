@@ -44,6 +44,10 @@ params:
     # Social Icons
     socialIconsStrokeWidth: 1.5
     socialIcons:
+        - name: googlescholar
+          url: "https://scholar.google.com/citations?user=OAVQtTsAAAAJ&hl=en&authuser=2"
+        - name: researchgate
+          url: "https://www.researchgate.net/profile/Zain-Ul-Abideen-Nasir?ev=hdr_xprf"
         - name: email
           url: "mailto:znasir1@binghamton.edu"
         - name: linkedin
